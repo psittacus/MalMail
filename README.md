@@ -9,7 +9,7 @@
 <b>Usage</b>
 <br>
 dummy@area51 ~ $ python3 malmail.py [forename, last name, your mailaddress, subject, recipient] *Press Return key*<br>
-*Enter here your text*<br>
+*Enter your text here*<br>
 *End the text by typing EOF in the last line*<br>
 dummy@area51 ~ $<br>
 
