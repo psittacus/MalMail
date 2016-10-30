@@ -1,4 +1,4 @@
-#Version 1.1 stable - user interface for malmail
+#Version 1.1.1 stable - user interface for malmail
 
 
 #Ask for user input
