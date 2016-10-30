@@ -1,5 +1,8 @@
 Changelog for MalMail - Malicious Mail - an E-Mail Address faking Client
 
+Version 1.1.1 - stable:
+-fix: If normal user input (no command line parameters) is used, names and subject can be emty now
+
 Version 1.1 - stable:
 -add: Added --help and -h option to command line paramters
 -add: Added --verion option to command line parameters
