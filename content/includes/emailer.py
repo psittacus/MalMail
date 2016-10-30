@@ -1,4 +1,4 @@
-#Version 1.1 stable
+#Version 1.1.1 - stable
 import smtplib
 
 #This function sends an email with the sepcified paramters via the server specified in the function
