@@ -1,5 +1,5 @@
-#Version 1.1 stable
-version = """1.1 - stable
+#Version 1.1.1 stable
+version = """1.1.1 - stable
 Thank you for using our tool! psittacus & splix @k4cg"""
 
 from content.includes.emailer import *
@@ -27,7 +27,8 @@ Thank you for using our tool! psittacus & splix @k4cg"""
 
 #Checks the length of the command line paramters, if none given use readUserInput() function from UserInterface.py
 #also uses readMailText() from UserInterface.py as mailtextreader
-if(len(sys.argv) == 1): #use readUserInput() as input
+if(len(sys.argv) == 1): #use readUserInput() as input 
+	args = ["","","","","",""]
 	args = readUserInput()
 	send_mail(args[0], args[1], args[2], args[3], args[4], readMailText())
 elif(sys.argv[1] == "-h" or sys.argv[1] == "--help" ): #user called help functionality
